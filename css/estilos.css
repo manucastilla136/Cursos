@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+@font-face {
+  font-family: topsecret;
+  src: url(../imagenes/Top\ Secret\ Stamp.ttf);
+}
+@font-face {
+  font-family: armalite;
+  src: url(../imagenes/armalite_rifle.ttf);
+}
+@font-face {
+  font-family: hvd;
+  src: url(../imagenes/HVD_Peace.ttf);
+}
+.colorN {
+  text-decoration: none;
+  color: #198754;
+}
+.imagenfondo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/cuarta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.imagenfondoCursos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/quinta.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.titulo {
+  color: #c8b372;
+  font-family: hvd;
+  font-size: 4rem;
+}
+.titulo2 {
+  color: #198754;
+  font-family: armalite;
+  font-size: 3rem;
+}
+.titulo3 {
+  font-size: 4rem;
+  font-family: topsecret;
+  color: #198754;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.fondo {
+  background-image: url(../imagenes/camufondo2.jpg);
+}
+.botnav {
+  font-family: "Saira Stencil One", cursive;
+  :hover {
+    color: red;
+  }
+}
+.subtitulo1 {
+  font-family: topsecret;
+  font-size: 2rem;
+  color: #c8b372;
+}
+.text {
+  font-family: "Crimson Text", serif;
+  color: rgb(17, 16, 16);
+}
+.textoscont {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footext {
+  font-family: topsecret;
+  font-size: large;
+  color: #c8b372;
+}
